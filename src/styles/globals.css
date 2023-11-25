@@ -1,0 +1,116 @@
+
+
+body{
+  background: rgb(241, 241, 241);
+}
+
+/* nav */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 0 40px;
+  align-items: center;
+  background: #2d2d2d;
+  color: white;
+  gap: 80px;
+}
+
+.btn button {
+  width: 205px;
+  height: 43px;
+  border: 1px solid #ffbf1d;
+  background: #2d2d2d;
+  color: white;
+}
+span{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+span img{
+  width:20px ;
+  height: 20px;
+}
+.link{
+  padding: 0 90px ;
+  display: flex;
+  align-items: center;
+
+}
+.link a{
+  color: black;
+  text-decoration: none;
+  padding:30px 60px ;
+}
+
+/* nav */
+
+
+/* about */
+
+.ota{
+ 
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  justify-content: center;
+
+}
+.card{
+  width: 421px;
+  height: 600px;
+  background: white;
+  
+}
+.card .text1 {
+  padding: 0 10px  ;
+}
+
+.card .btn1 button{
+  padding: 20px;
+  width: 160px;
+  height: 30px;
+  top: 623px;
+  left: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+background-color: #ffbf1d;
+border: none;
+color: white;
+  
+}
+.card img{
+  width: 421px;
+  height: 365px;
+  left: -21px
+  
+}
+
+.textp{
+  width: 100% 1171px;
+  margin: 0 auto;
+  
+  color: var(--text, #2D2D2D);
+
+  /* description */
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156.687%; /* 25.07px */
+  
+}
+
+.rasimmid{
+  text-align: center;
+}
+.kotaimg{
+  text-align: center;
+
+
+}
+/* about */
